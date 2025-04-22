@@ -13,7 +13,7 @@ def get_params(argv):
 	parser = argparse.ArgumentParser(description='Extract ITS1 from fungal genome rapidly')
 	parser.add_argument('-i', '--i', help="input genome file", required=True)
 	parser.add_argument('-o', '--o', help="output directory", required=True)
-	parser.add_argument('-which', '--which', help="Which ITS sequence to extract (ITS1|ITS2) default=ITS1", default='ITS1')
+	parser.add_argument('-which', '--which', help="Which ITS sequence to extract (SSU|ITS1|5.8S|ITS2|LSU|all|none) default=ITS1", default='ITS1')
 	parser.add_argument('-cpu', '--cpu', help="number of threads/cores to use", required=False, default='48')
 	parser.add_argument('-name', '--name', help="name", required=False, default='genome')
 	a = parser.parse_args()
