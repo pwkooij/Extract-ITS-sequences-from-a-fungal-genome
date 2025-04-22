@@ -9,6 +9,8 @@ By combining these two softwares and performing sequences comparison, this scrip
 python extractITS.py -which ITS2 -i genome.fasta -o ./output/ -name mySpecies
 ```
 
+For `-which` one can choose between 'SSU', 'ITS1', '5.8S', 'ITS2', 'LSU', 'all' and 'none'
+
 ## Dependencies
 
 - Python 3.x
